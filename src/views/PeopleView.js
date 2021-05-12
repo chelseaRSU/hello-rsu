@@ -1,6 +1,7 @@
 import React from 'react'
 
 function PeopleView(props) {
+
     return (
         <div>
             <Header {...props} />
@@ -12,6 +13,7 @@ function PeopleView(props) {
 function Header(props) {
     return (
         <header>
+            <p>An example using React Flux...</p>
             <h1>A LIST OF PEOPLE:</h1>
             <NewPerson {...props} />
         </header>
@@ -31,7 +33,7 @@ function Main(props) {
                     <li key={person.id}>
                         <div>
                             <label>{person.text}</label>
-                            <button onClick={() => props.onDelete(person.id)} />
+                            <button onClick={() => props.onDelete(person.id)}>DELETE</button>
                         </div>
                     </li>
                 ))}

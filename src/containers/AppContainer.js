@@ -7,6 +7,7 @@ import DraftStore from '../data/DraftStore'
 function getStores() {
     return [
         Store,
+        DraftStore,
     ];
 }
 

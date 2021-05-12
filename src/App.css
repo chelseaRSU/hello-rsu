@@ -8,6 +8,18 @@
   }
 }
 
+ul {
+  list-style-type: none;
+}
+
+button {
+  padding: 5px;
+  border: 2px solid black;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,6 +37,7 @@
 
 .personInput {
   color: black;
+  z-index: 2;
 }
 
 @keyframes App-logo-spin {
