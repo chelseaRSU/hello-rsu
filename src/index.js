@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import Actions from './data/Actions';
 
-Actions.addPerson("Seymour Butts");
-Actions.addPerson("Amanda Huggenkiss");
-Actions.addPerson("I.P. Freeley");
+Actions.addPerson("Rigby");
+Actions.addPerson("Penny");
+Actions.addPerson("Joey");
 
 ReactDOM.render(
   <React.StrictMode>
